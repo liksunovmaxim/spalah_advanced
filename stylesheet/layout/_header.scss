@@ -1,0 +1,16 @@
+body{
+	background: red;
+	color: $textColor;
+	font: 10px/1.1 $family;
+	height: 100vh;
+	@include anim($dur: .3s);
+	@include anim-param(background, opacity);
+	@include bp($tablet){
+		background: red;
+	}
+	@extend %layout;
+}
+body:hover{
+	background: black;
+	opacity: 0.4;
+}

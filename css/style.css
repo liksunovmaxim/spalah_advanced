@@ -1,0 +1,21 @@
+body:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+body {
+  background: red;
+  color: #333;
+  font: 10px/1.1 Tahoma, helvetica, sans-serif;
+  height: 100vh;
+  transition: all 0.3s linear 0s;
+  transition-property: background, opacity; }
+  @media screen and (max-width: 980px) {
+    body {
+      background: red; } }
+
+body:hover {
+  background: black;
+  opacity: 0.4; }
+
+/*# sourceMappingURL=maps/style.css.map */
